@@ -3,6 +3,8 @@
   <xsl:template match="/">
     <html>
       <head>
+            <meta charset="utf-8"/>
+            <title>Custom math notation</title>
       </head>
       <body>
         <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
