@@ -1,0 +1,67 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    color-scheme: dark;
+}
+
+body {
+    min-height: 100%;
+    font-family: Roboto, sans-serif;
+    background-color: #18191C;
+    color: #FFFFFF;
+}
+
+dialog {
+    position: static;
+    padding: 100px 100px;
+    border-color: currentColor;
+    color: black;
+    background-color: #0095ff;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 0.85;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 0.85;
+    text-align: center;
+}
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    margin-inline: auto;
+    inset-inline: 0;
+    inset-block-start: 50%;
+    transform: translateY(-50%);
+    border-color: rgb(201, 233, 219);
+    border-width: 1px;
+    box-shadow: royalblue;
+}
+
+.angled-gradient {
+    background: linear-gradient(70deg, blue, rgb(17, 200, 75));
+}
+
+li {
+    padding-bottom: 25px;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+}
