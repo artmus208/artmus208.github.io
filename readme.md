@@ -1,1 +1,1 @@
-# [Решение](artmus208.github.io/index.html)
+# [Решение](https://artmus208.github.io/)
